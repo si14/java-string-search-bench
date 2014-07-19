@@ -1,0 +1,65 @@
+
+Benchmark                            (arraySize)   Mode   Samples        Score  Score error    Units
+i.g.s.s.BinaryBench.benchBinary                1   avgt        20       10.594        0.977    ns/op
+i.g.s.s.BinaryBench.benchBinary                2   avgt        20       15.404        0.276    ns/op
+i.g.s.s.BinaryBench.benchBinary                3   avgt        20       14.214        0.679    ns/op
+i.g.s.s.BinaryBench.benchBinary                5   avgt        20        9.926        0.916    ns/op
+i.g.s.s.BinaryBench.benchBinary                8   avgt        20       20.259        0.873    ns/op
+i.g.s.s.BinaryBench.benchBinary               13   avgt        20       24.612        0.558    ns/op
+i.g.s.s.BinaryBench.benchBinary               21   avgt        20        9.061        0.024    ns/op
+i.g.s.s.BinaryBench.benchBinary               33   avgt        20       31.903        0.126    ns/op
+i.g.s.s.BinaryBench.benchBinary               54   avgt        20       32.875        0.149    ns/op
+i.g.s.s.BinaryBench.benchBinary               87   avgt        20       38.140        0.139    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw             1   avgt        20        8.487        0.015    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw             2   avgt        20       15.034        0.126    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw             3   avgt        20       14.707        0.047    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw             5   avgt        20        8.514        0.048    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw             8   avgt        20       20.074        0.059    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw            13   avgt        20       25.514        0.097    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw            21   avgt        20        8.523        0.058    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw            33   avgt        20       30.085        0.111    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw            54   avgt        20       30.713        0.246    ns/op
+i.g.s.s.BinaryBench.benchBinaryRaw            87   avgt        20       39.653        0.142    ns/op
+i.g.s.s.BinaryBench.benchInterned              1   avgt        20        2.266        0.007    ns/op
+i.g.s.s.BinaryBench.benchInterned              2   avgt        20        3.246        0.009    ns/op
+i.g.s.s.BinaryBench.benchInterned              3   avgt        20        3.243        0.009    ns/op
+i.g.s.s.BinaryBench.benchInterned              5   avgt        20        3.963        0.009    ns/op
+i.g.s.s.BinaryBench.benchInterned              8   avgt        20       12.039        0.337    ns/op
+i.g.s.s.BinaryBench.benchInterned             13   avgt        20        6.954        0.019    ns/op
+i.g.s.s.BinaryBench.benchInterned             21   avgt        20        8.928        0.028    ns/op
+i.g.s.s.BinaryBench.benchInterned             33   avgt        20       11.846        0.039    ns/op
+i.g.s.s.BinaryBench.benchInterned             54   avgt        20       16.757        0.035    ns/op
+i.g.s.s.BinaryBench.benchInterned             87   avgt        20       24.170        0.062    ns/op
+
+
+Benchmark                                   (arraySize)   Mode   Samples        Score  Score error    Units
+i.g.s.s.InternedBench.benchInterned                   1   avgt        20        2.274        0.024    ns/op
+i.g.s.s.InternedBench.benchInterned                   2   avgt        20        3.552        0.207    ns/op
+i.g.s.s.InternedBench.benchInterned                   3   avgt        20        3.336        0.122    ns/op
+i.g.s.s.InternedBench.benchInterned                   5   avgt        20        4.113        0.192    ns/op
+i.g.s.s.InternedBench.benchInterned                   8   avgt        20       13.902        1.605    ns/op
+i.g.s.s.InternedBench.benchInterned                  13   avgt        20        7.404        0.483    ns/op
+i.g.s.s.InternedBench.benchInterned                  21   avgt        20        8.995        0.154    ns/op
+i.g.s.s.InternedBench.benchInterned                  33   avgt        20       11.811        0.025    ns/op
+i.g.s.s.InternedBench.benchInterned                  54   avgt        20       16.729        0.041    ns/op
+i.g.s.s.InternedBench.benchInterned                  87   avgt        20       24.166        0.075    ns/op
+i.g.s.s.InternedBench.benchInternedEquals             1   avgt        20        3.270        0.009    ns/op
+i.g.s.s.InternedBench.benchInternedEquals             2   avgt        20        6.043        0.022    ns/op
+i.g.s.s.InternedBench.benchInternedEquals             3   avgt        20        6.041        0.016    ns/op
+i.g.s.s.InternedBench.benchInternedEquals             5   avgt        20        7.978        0.223    ns/op
+i.g.s.s.InternedBench.benchInternedEquals             8   avgt        20       14.738        0.112    ns/op
+i.g.s.s.InternedBench.benchInternedEquals            13   avgt        20       20.031        0.050    ns/op
+i.g.s.s.InternedBench.benchInternedEquals            21   avgt        20       29.510        0.147    ns/op
+i.g.s.s.InternedBench.benchInternedEquals            33   avgt        20       72.128        0.355    ns/op
+i.g.s.s.InternedBench.benchInternedEquals            54   avgt        20      120.291        0.683    ns/op
+i.g.s.s.InternedBench.benchInternedEquals            87   avgt        20      167.705        1.164    ns/op
+i.g.s.s.InternedBench.benchUninterned                 1   avgt        20        3.310        0.011    ns/op
+i.g.s.s.InternedBench.benchUninterned                 2   avgt        20        6.054        0.022    ns/op
+i.g.s.s.InternedBench.benchUninterned                 3   avgt        20        6.045        0.013    ns/op
+i.g.s.s.InternedBench.benchUninterned                 5   avgt        20        7.936        0.024    ns/op
+i.g.s.s.InternedBench.benchUninterned                 8   avgt        20       14.718        0.027    ns/op
+i.g.s.s.InternedBench.benchUninterned                13   avgt        20       20.072        0.060    ns/op
+i.g.s.s.InternedBench.benchUninterned                21   avgt        20       29.501        0.132    ns/op
+i.g.s.s.InternedBench.benchUninterned                33   avgt        20       70.888        0.318    ns/op
+i.g.s.s.InternedBench.benchUninterned                54   avgt        20      112.901        1.029    ns/op
+i.g.s.s.InternedBench.benchUninterned                87   avgt        20      168.355        1.175    ns/op
