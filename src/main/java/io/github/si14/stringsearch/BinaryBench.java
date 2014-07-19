@@ -13,7 +13,8 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @State(Scope.Benchmark)
 public class BinaryBench {
-    @Param({"1", "2", "3", "5", "8", "13", "21", "33", "54", "87"})
+//    @Param({"1", "2", "3", "5", "8", "13", "21", "33", "54", "87"})
+    @Param({"87", "99"})
     int arraySize;
 
     int toSearchIdx;
