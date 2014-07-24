@@ -11,15 +11,14 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @State(Scope.Benchmark)
-public class MagicEightBench {
-    @Param({"1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
-            "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-            "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-            "31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-            "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"})
+public class PositionBench {
+    @Param({"20"})
     int arraySize;
 
+    @Param({"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+            "11", "12", "13", "14", "15", "16", "17", "18", "19"})
     int toSearchIdx;
+
     String[] unsortedArray;
     String toSearchInterned;
     int foundIdx;
@@ -30,7 +29,6 @@ public class MagicEightBench {
 
         unsortedArray = new String[arraySize];
         System.arraycopy(allStrings, 0, unsortedArray, 0, arraySize);
-        toSearchIdx = arraySize / 2;
         toSearchInterned = allStrings[toSearchIdx].intern();
         assert toSearchInterned == allStrings[toSearchIdx] : "string constants are interned";
     }
@@ -56,7 +54,7 @@ public class MagicEightBench {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(".*" + MagicEightBench.class.getSimpleName() + ".*")
+                .include(".*" + PositionBench.class.getSimpleName() + ".*")
                 .forks(1)
                 .build();
 

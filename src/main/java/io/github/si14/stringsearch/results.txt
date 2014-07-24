@@ -170,3 +170,25 @@ i.g.s.s.MagicEightBench.benchInterned            49   avgt        20       15.60
 i.g.s.s.MagicEightBench.benchInterned            50   avgt        20       15.920        0.035    ns/op
 
 
+
+Benchmark                             (arraySize) (toSearchIdx)   Mode   Samples        Score  Score error    Units
+i.g.s.s.PositionBench.benchInterned            20             0   avgt        20        2.276        0.010    ns/op
+i.g.s.s.PositionBench.benchInterned            20             1   avgt        20        3.249        0.012    ns/op
+i.g.s.s.PositionBench.benchInterned            20             2   avgt        20        3.976        0.020    ns/op
+i.g.s.s.PositionBench.benchInterned            20             3   avgt        20        4.768        0.063    ns/op
+i.g.s.s.PositionBench.benchInterned            20             4   avgt        20       12.120        0.443    ns/op
+i.g.s.s.PositionBench.benchInterned            20             5   avgt        20        6.523        0.085    ns/op
+i.g.s.s.PositionBench.benchInterned            20             6   avgt        20        6.951        0.027    ns/op
+i.g.s.s.PositionBench.benchInterned            20             7   avgt        20        7.774        0.055    ns/op
+i.g.s.s.PositionBench.benchInterned            20             8   avgt        20       12.638        0.346    ns/op
+i.g.s.s.PositionBench.benchInterned            20             9   avgt        20        8.395        0.032    ns/op
+i.g.s.s.PositionBench.benchInterned            20            10   avgt        20        8.920        0.040    ns/op
+i.g.s.s.PositionBench.benchInterned            20            11   avgt        20        9.328        0.399    ns/op
+i.g.s.s.PositionBench.benchInterned            20            12   avgt        20        9.809        0.042    ns/op
+i.g.s.s.PositionBench.benchInterned            20            13   avgt        20       10.275        0.057    ns/op
+i.g.s.s.PositionBench.benchInterned            20            14   avgt        20       10.968        0.475    ns/op
+i.g.s.s.PositionBench.benchInterned            20            15   avgt        20       11.161        0.100    ns/op
+i.g.s.s.PositionBench.benchInterned            20            16   avgt        20       11.875        0.064    ns/op
+i.g.s.s.PositionBench.benchInterned            20            17   avgt        20       12.437        0.107    ns/op
+i.g.s.s.PositionBench.benchInterned            20            18   avgt        20       13.233        0.144    ns/op
+i.g.s.s.PositionBench.benchInterned            20            19   avgt        20       14.125        0.050    ns/op
