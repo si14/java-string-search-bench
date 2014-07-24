@@ -117,4 +117,56 @@ i.g.s.s.TroveBench.benchTrove               87   avgt        20       13.581    
 i.g.s.s.TroveBench.benchTrove               99   avgt        20       10.566        0.019    ns/op
 
 
+Benchmark                               (arraySize)   Mode   Samples        Score  Score error    Units
+i.g.s.s.MagicEightBench.benchInterned             1   avgt        20        2.454        0.738    ns/op
+i.g.s.s.MagicEightBench.benchInterned             2   avgt        20        3.243        0.008    ns/op
+i.g.s.s.MagicEightBench.benchInterned             3   avgt        20        3.249        0.011    ns/op
+i.g.s.s.MagicEightBench.benchInterned             4   avgt        20        3.968        0.014    ns/op
+i.g.s.s.MagicEightBench.benchInterned             5   avgt        20        3.960        0.011    ns/op
+i.g.s.s.MagicEightBench.benchInterned             6   avgt        20        4.730        0.007    ns/op
+i.g.s.s.MagicEightBench.benchInterned             7   avgt        20        4.731        0.015    ns/op
+i.g.s.s.MagicEightBench.benchInterned             8   avgt        20       11.557        0.256    ns/op
+i.g.s.s.MagicEightBench.benchInterned             9   avgt        20       11.337        0.314    ns/op
+i.g.s.s.MagicEightBench.benchInterned            10   avgt        20        6.548        0.153    ns/op
+i.g.s.s.MagicEightBench.benchInterned            11   avgt        20        6.640        0.275    ns/op
+i.g.s.s.MagicEightBench.benchInterned            12   avgt        20        6.948        0.025    ns/op
+i.g.s.s.MagicEightBench.benchInterned            13   avgt        20        6.948        0.020    ns/op
+i.g.s.s.MagicEightBench.benchInterned            14   avgt        20        7.997        0.358    ns/op
+i.g.s.s.MagicEightBench.benchInterned            15   avgt        20        7.885        0.220    ns/op
+i.g.s.s.MagicEightBench.benchInterned            16   avgt        20       13.010        0.627    ns/op
+i.g.s.s.MagicEightBench.benchInterned            17   avgt        20       12.740        0.532    ns/op
+i.g.s.s.MagicEightBench.benchInterned            18   avgt        20        8.698        0.431    ns/op
+i.g.s.s.MagicEightBench.benchInterned            19   avgt        20        8.502        0.359    ns/op
+i.g.s.s.MagicEightBench.benchInterned            20   avgt        20        8.981        0.114    ns/op
+i.g.s.s.MagicEightBench.benchInterned            21   avgt        20        9.070        0.544    ns/op
+i.g.s.s.MagicEightBench.benchInterned            22   avgt        20       11.003        4.077    ns/op
+i.g.s.s.MagicEightBench.benchInterned            23   avgt        20        9.324        0.189    ns/op
+i.g.s.s.MagicEightBench.benchInterned            24   avgt        20       10.073        0.324    ns/op
+i.g.s.s.MagicEightBench.benchInterned            25   avgt        20       10.019        0.222    ns/op
+i.g.s.s.MagicEightBench.benchInterned            26   avgt        20       10.497        0.317    ns/op
+i.g.s.s.MagicEightBench.benchInterned            27   avgt        20       10.237        0.028    ns/op
+i.g.s.s.MagicEightBench.benchInterned            28   avgt        20       10.837        0.031    ns/op
+i.g.s.s.MagicEightBench.benchInterned            29   avgt        20       10.818        0.030    ns/op
+i.g.s.s.MagicEightBench.benchInterned            30   avgt        20       11.623        0.530    ns/op
+i.g.s.s.MagicEightBench.benchInterned            31   avgt        20       11.558        0.461    ns/op
+i.g.s.s.MagicEightBench.benchInterned            32   avgt        20       11.956        0.166    ns/op
+i.g.s.s.MagicEightBench.benchInterned            33   avgt        20       12.006        0.435    ns/op
+i.g.s.s.MagicEightBench.benchInterned            34   avgt        20       13.046        1.065    ns/op
+i.g.s.s.MagicEightBench.benchInterned            35   avgt        20       12.368        0.449    ns/op
+i.g.s.s.MagicEightBench.benchInterned            36   avgt        20       12.890        0.273    ns/op
+i.g.s.s.MagicEightBench.benchInterned            37   avgt        20       12.650        0.107    ns/op
+i.g.s.s.MagicEightBench.benchInterned            38   avgt        20       13.004        0.037    ns/op
+i.g.s.s.MagicEightBench.benchInterned            39   avgt        20       12.995        0.054    ns/op
+i.g.s.s.MagicEightBench.benchInterned            40   avgt        20       13.598        0.054    ns/op
+i.g.s.s.MagicEightBench.benchInterned            41   avgt        20       13.635        0.044    ns/op
+i.g.s.s.MagicEightBench.benchInterned            42   avgt        20       14.101        0.050    ns/op
+i.g.s.s.MagicEightBench.benchInterned            43   avgt        20       14.152        0.073    ns/op
+i.g.s.s.MagicEightBench.benchInterned            44   avgt        20       14.742        0.031    ns/op
+i.g.s.s.MagicEightBench.benchInterned            45   avgt        20       15.504        1.129    ns/op
+i.g.s.s.MagicEightBench.benchInterned            46   avgt        20       15.195        1.514    ns/op
+i.g.s.s.MagicEightBench.benchInterned            47   avgt        20       14.850        0.136    ns/op
+i.g.s.s.MagicEightBench.benchInterned            48   avgt        20       15.630        0.047    ns/op
+i.g.s.s.MagicEightBench.benchInterned            49   avgt        20       15.606        0.039    ns/op
+i.g.s.s.MagicEightBench.benchInterned            50   avgt        20       15.920        0.035    ns/op
+
 

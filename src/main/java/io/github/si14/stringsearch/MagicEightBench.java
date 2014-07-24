@@ -65,7 +65,7 @@ public class MagicEightBench {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(".*" + ShortBench.class.getSimpleName() + ".*")
+                .include(".*" + MagicEightBench.class.getSimpleName() + ".*")
                 .forks(1)
                 .build();
 
